@@ -96,4 +96,4 @@ for item in order:
 
 # Calculate and display the total price of the order
 total = sum(item["Price"] * item["Quantity"] for item in order)
-print(f"\nTotal: ${total:.2f}")3
+print(f"\nTotal: ${total:.2f}")
